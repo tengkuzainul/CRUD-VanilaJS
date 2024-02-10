@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>VanillaJS CRUD</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body style="background-color: #fff7f1">
+    <div id="container">
+      <h1>BELAJAR VANILLAJS CRUD</h1>
+      <div id="input-container">
+        <input type="text" id="username-add" placeholder="Enter username" />
+        <input type="email" id="email-add" placeholder="Enter email" />
+        <button id="add-btn">Add</button>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Username</th>
+            <th>Email</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+      </table>
+      <div id="update-container">
+        <input type="text" id="username-update" />
+        <input type="text" id="email-update" />
+        <button id="update-btn">Update</button>
+        <button id="cancel-btn">Cancel</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
